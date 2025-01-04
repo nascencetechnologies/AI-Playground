@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 model_path = "/Users/michaelstahle/AI-Models/Llama-3.3-70B-Instruct-4bit"
 
 from mlx_lm import load, generate
-Can 
+
 model, tokenizer = load(model_path)
 
 while True:
